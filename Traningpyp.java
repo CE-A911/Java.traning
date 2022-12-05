@@ -7,7 +7,7 @@ public class Traningpyp {
     static  Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
 
-        // هذا البرنامج سوف يحسب لك مساحة لغرفة
+        // هذا البرنامج يحسب عمرك ويحسب راتبك مخصوم منه 10%
         System.out.println(" please inter your first name");
 
         String name = input.next();
