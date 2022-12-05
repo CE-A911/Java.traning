@@ -1858,7 +1858,7 @@ public class Traningpyp {
                 return i;
         return -1 ;
     }
-    public static int search (double[] array , double target){
+    public static double search (double[] array , double target){
 
         for (int i = 0 ; i<array.length ; i++)
 
@@ -1866,23 +1866,23 @@ public class Traningpyp {
                 return i;
         return -1 ;
     }
-    public static int search (String[] array , String target){
+    public static String search (String[] array , String target){
 
         for (int i = 0 ; i<array.length ; i++)
 
             if(array[i] == target)
-                return i;
-        return -1 ;
+                return target;
+        return target;
     }
-    public static int search (byte[] array , byte target){
+    public static byte search (byte[] array , byte target){
 
         for (int i = 0 ; i<array.length ; i++)
 
             if(array[i] == target)
-                return i;
+                return (byte) i;
         return -1 ;
     }
-    public static int search (float[] array , float target){
+    public static float search (float[] array , float target){
 
         for (int i = 0 ; i<array.length ; i++)
 
